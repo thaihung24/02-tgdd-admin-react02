@@ -1,0 +1,35 @@
+{
+    "notLoggedIn": [
+        {
+            "icon": "bx bx-log-in-circle bx-rotate-180",
+            "content": "Login",
+            "link":"HandleLogIn"
+            
+        }
+      
+    ],
+    "Logged":[
+        {
+            "icon": "bx bx-user",
+            "content": "Profile",
+            "link":"myProfile"
+            
+        },
+        {
+            "icon": "bx bx-wallet-alt",
+            "content": "My Wallet",
+            "link":"/myWallet"
+        },
+        {
+            "icon": "bx bx-cog",
+            "content": "Settings",
+            "link":"/mySettings"
+        },
+        {
+            "icon": "bx bx-log-out-circle bx-rotate-180",
+            "content": "Logout",
+            "link":"HandleLogout"
+
+        }
+    ]
+}
